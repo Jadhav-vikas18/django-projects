@@ -1,0 +1,109 @@
+/* body{ background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    width: 100%;
+    height: 45px;
+    background-color:blue;
+    color: white;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.home>div
+{
+    background-color:green;
+    color:white;
+    font-size: 20px;
+    display: inline;
+    margin-left: 250px;
+    border: 2px solid yellow;
+    border-radius: 7px;
+} 
+
+#h1{
+    background-color:blue;
+    color: pink;
+}
+
+form {
+    margin-top: 50px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #3498db; /* Primary blue border */
+  }
+  
+  td {
+    padding: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #2c3e50; /* Dark text */
+  }
+  
+  input.a1 {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #3498db; /* Primary color border */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  } */
+  
+/* .sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #2c3e50; 
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .sidebar ul li:hover {
+    background: #34495e; 
+  }
+  
+  .sidebar ul li.active {
+    background: #1abc9c;
+
+    font-weight: bold;
+  } */

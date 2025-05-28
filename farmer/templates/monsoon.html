@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <!-- Bootstrap 4.3 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        .custom-card {
+            width: 90%;
+            background-color: rgb(71, 66, 66);
+        }
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="jumbotron py-4">
+{% if data %}
+    <div class="row">
+        {% for item in data %}
+        <div class="col-md-4 mb-4">
+            <div class="card text-white custom-card h-100">
+         <h2 class="text-center mb-4">Product Details</h2>
+               <img src="{{ item.image.url }}" alt="{{ item.name }}" class="card-img-top product-image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Product Details</h5>
+                    <p class="card-text"><strong>Name:</strong> {{ item.name }}</p>
+                    <p class="card-text"><strong>Rate:</strong> {{ item.rate }}</p>
+                    <p class="card-text"><strong>Expiry Date:</strong> {{ item.expiry_date }}</p>
+                    <p class="card-text"><strong>Manufacturing Date:</strong> {{ item.manufacturing_date }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+
+        
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
