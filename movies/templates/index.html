@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <title>Natural Star Nani Movies</title>
+        <link rel="stylesheet" href="{% static 'css\style.css'%}">
+    <style>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* makes items horizontal */
+            gap: 220px; /* spacing between buttons */
+        }
+
+        nav ul li {
+            display: inline;
+        
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><marquee behavior="" direction="left">Natural Star Nani Movies</marquee></h1>
+     <br>
+     <br>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="{% url 'tolly' %}">Tollywood</a></li>
+            <li><a href="#">Bollywood</a></li>
+            <li><a href="#">Mollywood</a></li>
+            <li><a href="#">Kollywood</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
